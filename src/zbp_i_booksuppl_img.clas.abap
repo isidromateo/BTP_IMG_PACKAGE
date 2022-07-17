@@ -1,0 +1,6 @@
+CLASS zbp_i_booksuppl_img DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF z_i_travel_img.
+
+ENDCLASS.
+
+CLASS zbp_i_booksuppl_img IMPLEMENTATION.
+ENDCLASS.

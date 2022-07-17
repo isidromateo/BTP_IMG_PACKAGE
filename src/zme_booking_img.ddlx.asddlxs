@@ -47,7 +47,7 @@ annotate view Z_C_BOOKING_IMG with
   #HIGH } ],
   identification: [ { position: 50 } ] }
   @Consumption.valueHelpDefinition: [{entity: {name:
-  '/DMO/I_Carrier', element: 'AirlineID' }}]
+  '/DMO/I_CARRIER', element: 'AirlineID' }}]
   carrier_id;
   @UI: { lineItem: [ { position: 60, importance:
   #HIGH } ],

@@ -4,11 +4,12 @@
 define view entity Z_C_BOOKING_IMG
   as projection on Z_I_BOOKING_IMG
 {
-  key travel_id      as travel_id,
-  key booking_id     as booking_id,
-      booking_date   as booking_date,
-      customer_id    as customer_id,
-      carrier_id     as carrier_id,
+  key Travel_Id      as travel_id,
+  key Booking_Id     as booking_id,
+      Booking_Date   as booking_date,
+      Customer_Id    as customer_id,
+      Carrier_Id     as carrier_id,
+       _Carrier.Name as CarrierName,
       connection_id  as connection_id,
       flight_date    as flight_date,
       @Semantics.amount.currencyCode: 'CurrencyCode'

@@ -2,7 +2,7 @@
 define service ZSD_TRAVEL_IMG {
   expose Z_C_TRAVEL_IMG as travel;
   expose Z_C_BOOKING_IMG as Booking;
-  expose z_c_booksuppl_log as BookingSupplement;
+  expose Z_C_BOOKSUPPL_IMG as BookingSupplement;
   expose /DMO/I_Supplement as SUPLEMENT;
   expose /DMO/I_SupplementText as supplementText;
   expose /DMO/I_Customer as passenger;
