@@ -3,7 +3,6 @@
 {
 "FROM":
 [
-"/DMO/I_CARRIER",
 "Z_I_BOOKING_IMG"
 ],
 "ASSOCIATED":

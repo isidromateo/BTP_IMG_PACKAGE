@@ -83,10 +83,4 @@ Template' } ],
   overallstatus;
   @UI.hidden: true
   lastchangedat;
-
-  @UI: {
-  lineItem: [ { position: 60, importance: #HIGH } ] }
-  @EndUserText.label: 'Discount: 10%'
-  discountPrice;
-
 }

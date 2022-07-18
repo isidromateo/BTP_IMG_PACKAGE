@@ -3,6 +3,7 @@
 {
 "FROM":
 [
+"Z_I_TRAVEL_IMG",
 "ZTB_BOOKING_IMG"
 ],
 "ASSOCIATED":
