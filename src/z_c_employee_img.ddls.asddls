@@ -1,10 +1,10 @@
 @AccessControl.authorizationCheck: #CHECK
-@EndUserText.label: 'HCM - IMG Master'
+@EndUserText.label: 'Employees'
 @Metadata.allowExtensions: true
-define root view entity Z_C_HCM_MASTER_IMG
-  as projection on Z_I_HCM_MASTER_IMG
+define root view entity Z_C_EMPLOYEE_IMG
+  as projection on Z_I_EMPLOYEE_IMG
 {
-      //      @ObjectModel.text.element: ['Employeenumber']
+      @ObjectModel.text.element: ['Employeenumber']
   key e_number       as Employeenumber,
       e_name         as EmployeeName,
       e_department   as EmployeeDepartment,
@@ -13,7 +13,7 @@ define root view entity Z_C_HCM_MASTER_IMG
       start_date     as StartDate,
       end_date       as EndDate,
       email          as Email,
-      //      @ObjectModel.text.element: ['Employeename']
+      @ObjectModel.text.element: ['Employeename']
       m_number       as ManagerNumber,
       m_name         as ManagerName,
       m_departament  as ManagerDepartament,

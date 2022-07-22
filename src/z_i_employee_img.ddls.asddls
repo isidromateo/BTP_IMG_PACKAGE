@@ -1,12 +1,11 @@
-@AbapCatalog.sqlViewName: 'ZV_HCM_IMG'
+@AbapCatalog.sqlViewName: 'ZV_EMPL_IMG'
 @AbapCatalog.compiler.compareFilter: true
 @AbapCatalog.preserveKey: true
 @AccessControl.authorizationCheck: #CHECK
 @EndUserText.label: 'HCM - IMG Master'
-define root view Z_I_HCM_MASTER_IMG
-  as select from zhc_master_img as hcmmaster
+define root view Z_I_EMPLOYEE_IMG
+  as select from zemployee_img as employee
 {
-
   key e_number,
       e_name,
       e_department,
