@@ -31,5 +31,5 @@ define behavior for Z_C_BOOKSUPPL_IMG alias SupplementProcessor
   use delete;
 
   use association _travel;
-  use association _Booking;
+//  use association _Booking;
 }

@@ -27,5 +27,4 @@ define view Z_I_BOOKING_IMG
       _customer,
       _Carrier,
       _Connection
-
 }

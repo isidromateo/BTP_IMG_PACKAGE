@@ -12,7 +12,7 @@ use etag
   use action rejectTravel;
  // use action createTravelByTemplate;
 
-  use association _Booking { create; }
+//  use association _Booking { create; }
 }
 
 //define behavior for Z_C_ABOOKING_IMG //alias <alias_name>

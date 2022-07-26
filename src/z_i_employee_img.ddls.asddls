@@ -21,5 +21,4 @@ define root view Z_I_EMPLOYEE_IMG
       crea_uname,
       lchg_date_time,
       lchg_uname
-
 }
