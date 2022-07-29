@@ -1,5 +1,0 @@
-CLASS zbp_i_hcm_master_img DEFINITION PUBLIC ABSTRACT FINAL FOR BEHAVIOR OF z_i_hcm_master_img.
-ENDCLASS.
-
-CLASS zbp_i_hcm_master_img IMPLEMENTATION.
-ENDCLASS.
