@@ -1,1 +1,0 @@
-# BTP_IMG_PACKAGE
